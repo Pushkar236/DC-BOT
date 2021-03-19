@@ -14,10 +14,10 @@ module.exports = {
     let invite = new MessageEmbed()
       .setTitle(`**Interested by the functions of our bot**`)
       .setDescription(
-        `**Then what are you waiting for? Invite me today!** \n\n [Invite Link](https://discord.com/oauth2/authorize?client_id={client_id}&permissions=${permissions}&scope=bot)`
+        `**Then what are you waiting for? Invite me today!** \n\n [Invite Link](https://discord.com/api/oauth2/authorize?client_id=822419928467374101&permissions=8&scope=bot)`
       )
       .setURL(
-        `https://discord.com/oauth2/authorize?client_id={client_id}&permissions=${permissions}&scope=bot`
+        `https://discord.com/api/oauth2/authorize?client_id=822419928467374101&permissions=8&scope=bot`
       )
       .setColor("RANDOM");
     return message.channel.send(invite);
