@@ -27,7 +27,7 @@ module.exports = {
         true
       );
     });
-    helpEmbed.addField(`**Links!**`, `**[Support Server](${support_server || "https://discord.gg/HMEKZdEExZ"}) • [Invite](https://discord.com/oauth2/authorize?client_id=${message.client.user.id}&permissions=70282305&scope=bot)**`)
+    helpEmbed.addField(`dm For any HELP`)
 
     helpEmbed.setTimestamp();
 
