@@ -18,8 +18,9 @@ module.exports = {
       .setThumbnail(message.client.user.displayAvatarURL({ format: "png" }))
       .setDescription(i18n.__("help.embedDescription"))
       .setColor("RANDOM")
+      .support_server(link)
       .setFooter(`Requested by ${message.author.username}`);
-
+      
     commands.forEach((cmd) => {
       helpEmbed.addField(
         `\`\`\`${message.client.prefix}${cmd.name}\`\`\``,
@@ -28,7 +29,7 @@ module.exports = {
       );
     });
     helpEmbed.addField(`dm For any HELP`)
-
+    helpEmbed.link(<a href="https://discord.gg/gYeFfuDk3Y"> Support Server </a>)
     helpEmbed.setTimestamp();
 
     return message.channel.send(helpEmbed).catch(console.error);
