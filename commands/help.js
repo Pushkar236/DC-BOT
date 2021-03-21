@@ -29,7 +29,6 @@ module.exports = {
       );
     });
     helpEmbed.addField(`dm For any HELP`)
-    helpEmbed.link(<a href="https://discord.gg/gYeFfuDk3Y"> Support Server </a>)
     helpEmbed.setTimestamp();
 
     return message.channel.send(helpEmbed).catch(console.error);
