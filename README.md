@@ -127,7 +127,3 @@ Examples: `1` or `1,2,3`
 * Controls your Discord Bot via Reactions
 ![reactions](https://media.discordapp.net/attachments/806012341355151400/806013954085617684/play.png)
 
-
-Main Credits go to [@iCrawl](https://github.com/iCrawl) for making evobot successfully the best music bot...😍
-Get evobot repo here - 
-https://github.com/eritislami/evobot
