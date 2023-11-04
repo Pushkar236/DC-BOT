@@ -1,7 +1,3 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/eritislami/evobot)
-
-# 🤖 Android Discord (Discord Music Bot)
-> AD is a Discord Music Bot built with discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
 
 ## Installation
 
@@ -10,11 +6,8 @@
 3. SoundCloud is no more providing APIs so no need of api.**
 4. Node.js v12.0.0 or newer
 
-## 🏁 Starting
 
-I will prefer to run it on repl.it as it gives more convinience than glitch website.. Go to repl.it [here](https://repl.it/).To gain free hacker plan, go to [here](https://repl.it/claim) and paste this code there
 
-Code - techwithtim
 
 ----
 
@@ -35,13 +28,6 @@ npm install
 ```
 
 After installation finishes you can use `node index.js` to start the bot.
-
-**For repl.it users** -
-
-**Tap on this --**
-
-[![Use on Repl.it](https://repl.it/badge/github/ZeroDiscord/EconomyBot)](https://repl.it/github/gtagamermods/admusicbot)
-
 ```
 Type (npm i) in console
 ```
